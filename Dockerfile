@@ -12,7 +12,7 @@ COPY TODO/todo_backend/package*.json ./
 RUN npm ci --omit=dev
  
 # Copy backend source files
-COPY TODO/todo_backend/ .
+COPY TODO/todo_backend/static ./static/build
  
 # Copy pre-built frontend static files
 COPY TODO/todo_backend/static ./static
