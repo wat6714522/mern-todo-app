@@ -64,8 +64,8 @@ pipeline {
         stage('Deploy') { 
             steps { 
                 echo 'Build and Push image to Docker Hub...'
-                sh "docker build -t ${DOCKER_HUB_USER}/${IMAGE_NAME}:1.0 ."
-                sh "docker push ${DOCKER_HUB_USER}/${IMAGE_NAME}:1.0" 
+                sh "docker build -t ${DOCKER_HUB_USER}/${IMAGE_NAME}:latest ."
+                sh "docker push ${DOCKER_HUB_USER}/${IMAGE_NAME}:latest" 
             } 
         } 
     }
