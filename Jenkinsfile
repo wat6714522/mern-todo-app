@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_HUB_USER = "apawat01"
+        DOCKER_HUB_USER = "wat6413032"
         IMAGE_NAME = "finead-todo-app"
         DOCKER_HUB_CREDS = 'jenkins-credentials' 
     }
