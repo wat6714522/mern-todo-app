@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs "NodeJS"
+    }
+
     environment {
         DOCKER_HUB_USER = "apawat01"
         IMAGE_NAME = "finead-todo-app"
