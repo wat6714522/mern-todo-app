@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+TODO/todo_backend/node_modules
+TODO/todo_frontend/node_modules
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+TODO/todo_backend/.env
+TODO/todo_frontend/.env
+
+# Frontend source (already built into static/)
+TODO/todo_frontend/src
+TODO/todo_frontend/public
+TODO/todo_frontend/node_modules
+
+# Git
+.git
+.gitignore
+
+# Logs
+npm-debug.log*
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jenkins
+Jenkinsfile
+
+# Docker
+Dockerfile
+.dockerignore
